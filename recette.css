@@ -1,0 +1,174 @@
+body {
+    background-color: #8ba1bb;
+    font-family: Arial;
+    margin: 0px;
+}
+
+
+
+div.contenu{
+background-color: white;
+margin: 0px 10% 20% 10%;
+padding: 30px;
+min-width: 350px;
+box-shadow: 5px 5px 5px 5px rgba(222, 222, 233, 0.2);
+}
+
+h1 {
+text-align: center;
+margin-bottom: 12px;
+margin-top: 10px;
+
+}
+
+p.description {
+text-align: center;
+max-width: 500px;
+display: inline-block;
+}
+
+div.description {
+
+text-align: center;
+
+}
+
+
+div.categorie {
+
+/*background-color: rgb(173, 25, 75);*/
+text-align: center;
+margin-bottom: -20px;
+/*display: block;*/
+}
+
+
+p.categorie {
+background-color: black;
+color: white;
+display:inline-block;
+margin-top: 40px;
+margin-bottom: 0;
+padding: 8px 18px;
+font-size: 26px;
+font-weight: bold;
+}
+
+
+div.separateur {
+max-width: 100px;
+height: 1px;
+background-color: black;
+margin-left: auto;
+margin-right: auto;
+}
+
+.centre {
+width: 100%;
+}
+
+
+table.info {
+position: absolute; 
+bottom: 0%;
+width: 100%; 
+color: white; 
+background-color: #6C829DC0;
+
+}
+
+table.info td{
+text-align: center;
+font-size: 14px;
+vertical-align: top;
+}
+
+table.info th{
+
+}
+
+
+img.info{
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px ;
+    background-color: lightgray;
+}
+
+
+div.colonne{
+
+    width: 45%;
+}
+
+div.colonne h2{
+
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6C829D;
+    padding-bottom: 5px;
+}
+
+div.colonne1{
+    display: inline-block;
+    margin-right: 10%;
+}
+
+div.colonne2{
+    float: right;
+
+}
+
+/*
+p.ingredient{
+    border: 1px solid lightgrey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 0px;
+   
+}
+*/
+
+div.ingredient p{
+
+    margin-bottom: 0px;
+    margin-top: 5px;
+    text-align: center;
+    padding: 10px 5px;
+    border: 1px solid lightgrey;
+}
+
+table.info2 p.numero {
+background-color:#6C829D;
+color: white;
+width: 25px;
+height: 25px;
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+padding-top: 4px;
+box-sizing: border-box;
+border-radius: 50px;
+margin-top: 0%;
+}
+
+table.info2 td{
+vertical-align: top;
+}
+
+table.info2 td.preparation_etape{
+    font-size: 14px;
+    padding-left: 10px;
+    }
+
+    table.info2 tr{
+        height: 20px;
+        }
+
+*{
+    overflow: auto;
+}
